@@ -53,37 +53,64 @@ public final class R {
         public static final int line40=0x7f020002;
     }
     public static final class id {
-        public static final int TextView01=0x7f090018;
-        public static final int box_calories=0x7f09000e;
-        public static final int box_distance=0x7f090004;
-        public static final int box_pace=0x7f090008;
-        public static final int box_speed=0x7f09000b;
-        public static final int box_steps=0x7f090001;
-        public static final int button_desired_pace_lower=0x7f090012;
-        public static final int button_desired_pace_raise=0x7f090015;
-        public static final int calories_units=0x7f090010;
-        public static final int calories_value=0x7f09000f;
-        public static final int desired_pace_control=0x7f090011;
-        public static final int desired_pace_label=0x7f090013;
-        public static final int desired_pace_value=0x7f090014;
-        public static final int distance_units=0x7f090006;
-        public static final int distance_value=0x7f090005;
-        public static final int pace_units=0x7f09000a;
-        public static final int pace_value=0x7f090009;
-        public static final int row_1=0x7f090000;
-        public static final int row_2=0x7f090007;
-        public static final int speed_units=0x7f09000d;
-        public static final int speed_value=0x7f09000c;
-        public static final int step_units=0x7f090003;
-        public static final int step_value=0x7f090002;
-        public static final int textView1=0x7f090017;
-        public static final int textView2=0x7f090016;
+        public static final int Altitude_value=0x7f090012;
+        public static final int Heel_value=0x7f090002;
+        public static final int Latitude_value=0x7f09000f;
+        public static final int LinearLayout01=0x7f09000b;
+        public static final int LinearLayout02=0x7f09000e;
+        public static final int LinearLayout03=0x7f09000a;
+        public static final int LinearLayout04=0x7f090011;
+        public static final int LinearLayout05=0x7f090001;
+        public static final int LinearLayout06=0x7f090004;
+        public static final int LinearLayout07=0x7f090000;
+        public static final int LinearLayout08=0x7f090007;
+        public static final int Longitude_value=0x7f09000c;
+        public static final int Pitch_value=0x7f090005;
+        public static final int TextView01=0x7f09002d;
+        public static final int TextView02=0x7f090013;
+        public static final int TextView03=0x7f090028;
+        public static final int TextView04=0x7f090010;
+        public static final int TextView06=0x7f09000d;
+        public static final int TextView08=0x7f090009;
+        public static final int TextView10=0x7f090006;
+        public static final int TextView12=0x7f090003;
+        public static final int Yaw_value=0x7f090008;
+        public static final int box_calories=0x7f090022;
+        public static final int box_distance=0x7f090018;
+        public static final int box_pace=0x7f09001c;
+        public static final int box_speed=0x7f09001f;
+        public static final int box_steps=0x7f090015;
+        public static final int button_desired_pace_lower=0x7f090026;
+        public static final int button_desired_pace_raise=0x7f09002a;
+        public static final int calories_units=0x7f090024;
+        public static final int calories_value=0x7f090023;
+        public static final int desired_pace_control=0x7f090025;
+        public static final int desired_pace_label=0x7f090027;
+        public static final int desired_pace_value=0x7f090029;
+        public static final int distance_units=0x7f09001a;
+        public static final int distance_value=0x7f090019;
+        public static final int pace_units=0x7f09001e;
+        public static final int pace_value=0x7f09001d;
+        public static final int row_1=0x7f090014;
+        public static final int row_2=0x7f09001b;
+        public static final int speed_units=0x7f090021;
+        public static final int speed_value=0x7f090020;
+        public static final int step_units=0x7f090017;
+        public static final int step_value=0x7f090016;
+        public static final int textView1=0x7f09002c;
+        public static final int textView2=0x7f09002b;
     }
     public static final class layout {
         public static final int main=0x7f030000;
     }
     public static final class string {
+        public static final int Alt=0x7f080061;
+        public static final int Heel=0x7f08005c;
+        public static final int Lat=0x7f08005f;
+        public static final int Long=0x7f080060;
+        public static final int Pitch=0x7f08005d;
         public static final int Thisisit=0x7f08005a;
+        public static final int Yaw=0x7f08005e;
         public static final int activity_settings=0x7f080015;
         public static final int app_name=0x7f080000;
         public static final int body_weight_setting=0x7f080032;
@@ -177,6 +204,9 @@ public final class R {
         public static final int voice_setting_details=0x7f080042;
         public static final int voice_settings_title=0x7f080040;
         public static final int wake_up=0x7f080029;
+        public static final int xAccel=0x7f080062;
+        public static final int yAccel=0x7f080063;
+        public static final int zAccel=0x7f080064;
     }
     public static final class xml {
         public static final int preferences=0x7f040000;

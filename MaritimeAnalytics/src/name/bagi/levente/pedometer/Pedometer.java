@@ -140,7 +140,7 @@ public class Pedometer extends Activity {
         ((TextView) findViewById(R.id.speed_units)).setText(getString(
                 mIsMetric
                 ? R.string.kilometers_per_hour
-                : R.string.miles_per_hour
+                : R.string.yAccel
         ));
         
         mMaintain = mPedometerSettings.getMaintainOption();
