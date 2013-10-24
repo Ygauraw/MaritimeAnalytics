@@ -51,10 +51,21 @@ public class Pedometer extends Activity {
     private TextView mDistanceValueView;
     private TextView mSpeedValueView;
     private TextView mCaloriesValueView;
+    
+    
     private TextView mDebugView1;
     private TextView mDebugView2;
+    
+    
+    private TextView mHeelValueView;
+    private TextView mPitchValueView;
+    private TextView mYawValueView;
+    
+    
     TextView mDesiredPaceView;
     private int mStepValue;
+    
+    
     
 
     
@@ -129,6 +140,15 @@ public class Pedometer extends Activity {
         
         mDebugView1   = (TextView) findViewById(R.id.textView1);
         mDebugView2   = (TextView) findViewById(R.id.TextView01);
+        
+        mHeelValueView   = (TextView) findViewById(R.id.Heel_value);
+        mPitchValueView   = (TextView) findViewById(R.id.Pitch_value);
+        mYawValueView   = (TextView) findViewById(R.id.Yaw_value);
+        
+        
+        
+        
+        
         
 
         mIsMetric = mPedometerSettings.isMetric();
@@ -307,6 +327,11 @@ public class Pedometer extends Activity {
             mDebugView1.setText("0");
             mDebugView2.setText("0");
             
+            mHeelValueView.setText("0");
+            mPitchValueView.setText("0");
+            mYawValueView.setText("0");
+            
+            
             SharedPreferences state = getSharedPreferences("state", 0);
             SharedPreferences.Editor stateEditor = state.edit();
             if (updateDisplay) {
@@ -416,9 +441,16 @@ public class Pedometer extends Activity {
                     mPaceValue = msg.arg1;
                     if (mPaceValue <= 0) { 
                         mPaceValueView.setText("0");
+                        mHeelValueView.setText("0");
+                        mPitchValueView.setText("0");
+                        mYawValueView.setText("0");
+                        
                     }
                     else {
                         mPaceValueView.setText("" + (int)mPaceValue);
+                        mHeelValueView.setText("" + (int)mPaceValue);
+                        mPitchValueView.setText("" + (int)mPaceValue);
+                        mYawValueView.setText("" + (int)mPaceValue);
                     }
                     break;
                 case DISTANCE_MSG:
